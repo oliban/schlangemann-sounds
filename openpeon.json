@@ -2,7 +2,7 @@
   "cesp_version": "1.0",
   "name": "schlangemann",
   "display_name": "Schlangemann",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Sounds from Schlangemann YouTube videos",
   "author": {
     "name": "Fredrik Säfstén",
@@ -17,6 +17,15 @@
           "file": "sounds/wollt-ihr-tee-trinken.mp3",
           "label": "Wollt ihr Tee trinken?",
           "sha256": "02c0ce057619e65e3e120266df685d1e676ad51019e25316e600ce4e75977e67"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/kann-schlimm-werden.mp3",
+          "label": "Kann schlimm werden",
+          "sha256": "8e84e1cf30a284f7eeac7771bca2da0ddd870d803e50a5363fb027e988de5c11"
         }
       ]
     },

@@ -5,7 +5,7 @@ cookies_from_browser: chrome
 pack:
   name: schlangemann
   display_name: Schlangemann
-  version: 0.1.1
+  version: 0.1.2
   description: Sounds from Schlangemann YouTube videos
   author:
     name: Fredrik Säfstén
@@ -37,6 +37,7 @@ videos:
       - { start: "2:06.771", end: "2:13.618", category: task.complete,    file: der-himmel.mp3,         label: "Der Himmel, bist schön, du bist schön" }
       - { start: "3:07.137", end: "3:13.781", category: task.complete,    file: motorsaege.mp3,         label: "Nein, aber ich habe eine Motorsäge" }
       - { start: "1:09.414", end: "1:12.593", category: task.error,       file: hilfe-hilfe-hilfe.mp3, label: "Hilfe, hilfe, hilfe!" }
+      - { start: "0:07.2",   end: "0:09.0",   category: resource.limit,   file: kann-schlimm-werden.mp3, label: "Kann schlimm werden" }
       - { start: "0:55.464", end: "0:58.634", category: task.error,       file: aaaw-schlangemann.mp3, label: "Aaaw, Schlangemann!" }
       - { start: "3:04.781", end: "3:06.133", category: task.error,       file: keine-wahl.mp3,        label: "Ich habe keine Wahl" }
       - { start: "1:53.079", end: "1:56.343", category: input.required,   file: wollt-ihr-tee-trinken.mp3, label: "Wollt ihr Tee trinken?" }
