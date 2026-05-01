@@ -1,0 +1,154 @@
+{
+  "cesp_version": "1.0",
+  "name": "schlangemann",
+  "display_name": "Schlangemann",
+  "version": "0.1.0",
+  "description": "Sounds from Schlangemann YouTube videos",
+  "author": {
+    "name": "Fredrik Säfstén",
+    "github": "fredriksafsten"
+  },
+  "license": "LicenseRef-Fair-Use",
+  "language": "de",
+  "categories": {
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/wollt-ihr-tee-trinken.mp3",
+          "label": "Wollt ihr Tee trinken?",
+          "sha256": "02c0ce057619e65e3e120266df685d1e676ad51019e25316e600ce4e75977e67"
+        }
+      ]
+    },
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/jetzt-der-neue-schlangemann.mp3",
+          "label": "Jetzt der neue Schlangemann",
+          "sha256": "20d6fc169984d2b536dd7808e968c81bcad9fd517e0e8f84331115de0ae1c1d5"
+        },
+        {
+          "file": "sounds/kinder-kinder.mp3",
+          "label": "Kinder, kinder!",
+          "sha256": "066bc1e234d4a7ec30f5fb4632a3695dd29cda363d21f2314d01fc9ccdd18ac7"
+        },
+        {
+          "file": "sounds/schlangemann-der-multimensch.mp3",
+          "label": "Schlangemann, der Multimensch",
+          "sha256": "886acf82a570d04c99bb38edddb4df09ee418ce6fae188c858b322f91408a7b4"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/gigantisch.mp3",
+          "label": "Gigantisch",
+          "sha256": "631fbccc4b07591609ecb191b243de2af0ffae0a1cfc061c513f465a25a089de"
+        },
+        {
+          "file": "sounds/humoristisch.mp3",
+          "label": "Humoristisch",
+          "sha256": "c0771f2a6a2dddac968da6299f833bb07fb0500082e4ca5437e17729f1e9ff63"
+        },
+        {
+          "file": "sounds/jaaa.mp3",
+          "label": "Jaaa",
+          "sha256": "09b6d7936b5f63fbc786b98f5096692af098eb08f7c0762b736dedf595e89f47"
+        },
+        {
+          "file": "sounds/mattenpiske.mp3",
+          "label": "Mattenpiske",
+          "sha256": "8cd2428db1d05ebfdce585e3be644473df420e4e6f928051353db8c4e118cff3"
+        },
+        {
+          "file": "sounds/poetisch.mp3",
+          "label": "Poetisch",
+          "sha256": "6fde5d340b5e6c4575866edca47097f9aa491ae290be3b3f6b1f78cb895854b1"
+        },
+        {
+          "file": "sounds/poetisch2.mp3",
+          "label": "Poetisch",
+          "sha256": "46b53113817b209a067cf6ab74bea5a51a4dc6da7bcf83c2ac87474ed6748ba5"
+        },
+        {
+          "file": "sounds/poetisch3.mp3",
+          "label": "Poetisch",
+          "sha256": "7244e15d1b9f75bdf21a2602f76ce31f14f628c11fd3f24498511b7288b32213"
+        },
+        {
+          "file": "sounds/sportisch.mp3",
+          "label": "Sportisch",
+          "sha256": "a5175049fc760643237a5fb8806382482095570560af6ac14e5a93b00cfff437"
+        },
+        {
+          "file": "sounds/wunderbar.mp3",
+          "label": "Wunderbar",
+          "sha256": "2d979df9ca6a6965442a6521f1a3a9a18072ca4a71100211b3ddc5a78d83a3c5"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/bist-schoen.mp3",
+          "label": "Bist schön",
+          "sha256": "de51e415023a43751271b0a02fa9c0e84c66d60bf5aea7c79079aa78528815d1"
+        },
+        {
+          "file": "sounds/danke-schlangemann.mp3",
+          "label": "Danke, Schlangemann!",
+          "sha256": "278b24993eedf3fa97dfef3834d1dbbbfd82ce17aad5e1e92e06403a2deaf669"
+        },
+        {
+          "file": "sounds/der-himmel.mp3",
+          "label": "Der Himmel, bist schön, du bist schön",
+          "sha256": "275fe1743c7cdf799871333d39f205d05570b8b1db4d7c681db2af78c40d9584"
+        },
+        {
+          "file": "sounds/motorsaege.mp3",
+          "label": "Nein, aber ich habe eine Motorsäge",
+          "sha256": "7f594a854a9e85642fba77bff4a11197414ac98610f501fb19b7096a0e71a069"
+        },
+        {
+          "file": "sounds/romantisch.mp3",
+          "label": "Romantisch",
+          "sha256": "e99a095ba46c656993d87d0605ea3c479eacfaabc6b419f3dd4d6e85e77a0fb2"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/aaaw-schlangemann.mp3",
+          "label": "Aaaw, Schlangemann!",
+          "sha256": "02bbcc78bedc441796821007d859ef5c1ecb22fd4f1a69c3bcf892bc3c8007e1"
+        },
+        {
+          "file": "sounds/hilfe-hilfe-hilfe.mp3",
+          "label": "Hilfe, hilfe, hilfe!",
+          "sha256": "83be4088d4dfe08c88bd68fe211027b3e8c472295a697561384970db6a930405"
+        },
+        {
+          "file": "sounds/keine-wahl.mp3",
+          "label": "Ich habe keine Wahl",
+          "sha256": "9a98cf68f8f296955eb941f864fcae8c8f7a49e116d45f398ba9c6450d562366"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/nur-normal.mp3",
+          "label": "Nein, es ist nur normal",
+          "sha256": "d752f05c0c4b6f34cf784cd504781ba591bab3765065fe0db144fc4b468ce624"
+        },
+        {
+          "file": "sounds/spank-me-schlangemann.mp3",
+          "label": "Spank me, Schlangemann",
+          "sha256": "a60abc2a08380af3aa64355b0c9418b2aaeed97b2ff85aa269e1ea8dfee9f213"
+        }
+      ]
+    }
+  }
+}

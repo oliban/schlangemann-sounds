@@ -1,0 +1,44 @@
+# For age-restricted videos, yt-dlp can pull cookies from a logged-in browser.
+# Supported: chrome, safari, firefox, edge, brave, opera, vivaldi, chromium (use for Arc).
+cookies_from_browser: chrome
+
+pack:
+  name: schlangemann
+  display_name: Schlangemann
+  version: 0.1.0
+  description: Sounds from Schlangemann YouTube videos
+  author:
+    name: Fredrik Säfstén
+    github: fredriksafsten
+  license: LicenseRef-Fair-Use
+  language: de
+
+videos:
+  # "Der Schlangemann" — seed video
+  - url: https://www.youtube.com/watch?v=hxgo-n-vHZk
+    # First-pass clip proposals derived from YouTube auto-captions.
+    # Listen to each and adjust start/end as needed (auto-caption boundaries are loose).
+    clips:
+      - { start: "0:28.921", end: "0:30.138", category: session.start,    file: kinder-kinder.mp3,                label: "Kinder, kinder!" }
+      - { start: "0:30.275", end: "0:32.854", category: session.start,    file: jetzt-der-neue-schlangemann.mp3,  label: "Jetzt der neue Schlangemann" }
+      - { start: "0:42.714", end: "0:45.919", category: session.start,    file: schlangemann-der-multimensch.mp3, label: "Schlangemann, der Multimensch" }
+      - { start: "4:53.207", end: "4:55.626", category: task.acknowledge, file: wunderbar.mp3,        label: "Wunderbar" }
+      - { start: "2:47.857", end: "2:49.571", category: task.acknowledge, file: gigantisch.mp3,                   label: "Gigantisch" }
+      - { start: "0:46.399", end: "0:47.855", category: task.acknowledge, file: sportisch.mp3,                    label: "Sportisch" }
+      - { start: "1:03.553", end: "1:07.906", category: task.acknowledge, file: mattenpiske.mp3,                  label: "Mattenpiske" }
+      - { start: "1:22.224", end: "1:23.937", category: task.acknowledge, file: humoristisch.mp3,                 label: "Humoristisch" }
+      - { start: "2:02.221", end: "2:04.064", category: task.acknowledge, file: jaaa.mp3,                         label: "Jaaa" }
+      - { start: "2:14.483", end: "2:15.897", category: task.acknowledge, file: poetisch.mp3,                     label: "Poetisch" }
+      - { start: "2:16.882", end: "2:18.664", category: task.acknowledge, file: poetisch2.mp3,                    label: "Poetisch" }
+      - { start: "2:19.393", end: "2:21.132", category: task.acknowledge, file: poetisch3.mp3,                    label: "Poetisch" }
+      - { start: "2:11.5",   end: "2:14.0",   category: task.complete,    file: bist-schoen.mp3,       label: "Bist schön" }
+      - { start: "1:30.672", end: "1:33.148", category: task.complete,    file: romantisch.mp3,        label: "Romantisch" }
+      - { start: "1:14.623", end: "1:16.585", category: task.complete,    file: danke-schlangemann.mp3, label: "Danke, Schlangemann!" }
+      - { start: "2:06.771", end: "2:13.618", category: task.complete,    file: der-himmel.mp3,         label: "Der Himmel, bist schön, du bist schön" }
+      - { start: "3:07.137", end: "3:13.781", category: task.complete,    file: motorsaege.mp3,         label: "Nein, aber ich habe eine Motorsäge" }
+      - { start: "1:09.414", end: "1:12.593", category: task.error,       file: hilfe-hilfe-hilfe.mp3, label: "Hilfe, hilfe, hilfe!" }
+      - { start: "0:55.464", end: "0:58.634", category: task.error,       file: aaaw-schlangemann.mp3, label: "Aaaw, Schlangemann!" }
+      - { start: "3:04.781", end: "3:06.133", category: task.error,       file: keine-wahl.mp3,        label: "Ich habe keine Wahl" }
+      - { start: "1:53.079", end: "1:56.343", category: input.required,   file: wollt-ihr-tee-trinken.mp3, label: "Wollt ihr Tee trinken?" }
+      - { start: "2:50.154", end: "2:52.879", category: user.spam,       file: nur-normal.mp3,       label: "Nein, es ist nur normal" }
+      - { start: "3:45.916", end: "3:49.159", category: user.spam,       file: spank-me-schlangemann.mp3, label: "Spank me, Schlangemann" }
