@@ -2,13 +2,13 @@
   "cesp_version": "1.0",
   "name": "schlangemann",
   "display_name": "Schlangemann",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Sounds from Schlangemann YouTube videos",
   "author": {
     "name": "Fredrik Säfstén",
-    "github": "fredriksafsten"
+    "github": "oliban"
   },
-  "license": "LicenseRef-Fair-Use",
+  "license": "fair-use",
   "language": "de",
   "categories": {
     "input.required": {
