@@ -5,7 +5,7 @@ cookies_from_browser: chrome
 pack:
   name: schlangemann
   display_name: Schlangemann
-  version: 0.1.2
+  version: 0.1.3
   description: Sounds from Schlangemann YouTube videos
   author:
     name: Fredrik Säfstén
@@ -31,11 +31,11 @@ videos:
       - { start: "2:14.483", end: "2:15.897", category: task.acknowledge, file: poetisch.mp3,                     label: "Poetisch" }
       - { start: "2:16.882", end: "2:18.664", category: task.acknowledge, file: poetisch2.mp3,                    label: "Poetisch" }
       - { start: "2:19.393", end: "2:21.132", category: task.acknowledge, file: poetisch3.mp3,                    label: "Poetisch" }
-      - { start: "2:11.5",   end: "2:14.0",   category: task.complete,    file: bist-schoen.mp3,       label: "Bist schön" }
       - { start: "1:30.672", end: "1:33.148", category: task.complete,    file: romantisch.mp3,        label: "Romantisch" }
       - { start: "1:14.623", end: "1:16.585", category: task.complete,    file: danke-schlangemann.mp3, label: "Danke, Schlangemann!" }
-      - { start: "2:06.771", end: "2:13.618", category: task.complete,    file: der-himmel.mp3,         label: "Der Himmel, bist schön, du bist schön" }
-      - { start: "3:07.137", end: "3:13.781", category: task.complete,    file: motorsaege.mp3,         label: "Nein, aber ich habe eine Motorsäge" }
+      - { start: "2:06.670", end: "2:09.131", category: task.complete,    file: der-himmel.mp3,         label: "Der Himmel, bist schön, du bist schön" }
+      - { start: "2:11.487", end: "2:13.462", category: task.complete,    file: du-biest-schoon.mp3,    label: "Du biest, schoon" }
+      - { start: "3:07.211", end: "3:10.950", category: task.complete,    file: motorsaege.mp3,         label: "Nein, aber ich habe eine Motorsäge" }
       - { start: "1:09.414", end: "1:12.593", category: task.error,       file: hilfe-hilfe-hilfe.mp3, label: "Hilfe, hilfe, hilfe!" }
       - { start: "0:07.2",   end: "0:09.0",   category: resource.limit,   file: kann-schlimm-werden.mp3, label: "Kann schlimm werden" }
       - { start: "0:55.464", end: "0:58.634", category: task.error,       file: aaaw-schlangemann.mp3, label: "Aaaw, Schlangemann!" }
